@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: #080001;  
+    background-color: #BAE6FD;  
 }
 
 @font-face {
@@ -13,7 +13,7 @@ body {
 
 #Heading{
     text-align: center;
-    color: #EEEEEE;
+    color: #E0F2FE;
     font-family:Verdana;
     font-size: 40px;
     margin-bottom: 21px;
@@ -25,18 +25,20 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 
-    border: 2px solid white;
+    border: 2px solid #F0F9FF;
     border-radius: 10px;
     display: flex;
     justify-content: space-around;
     width: 575px;
     height: 385px;
-    background-color:#1B244A;
+    background-color:#7DD3FC;
 }
 #Box{
     width: 155px;
     height: 120px;
-    background-color: #080001;
+    background-color: #38BDF8;
+    border:1px solid #F0F9FF;
+    border-radius: 10px;
 }
 
 #Score{
@@ -44,28 +46,28 @@ body {
     font-family: myFirstFont;
     font-size:90px ;
     text-align: center;
-    color: #F94F6D;
+    color: #E0F2FE;
 }
 
 .style-Btn{ 
     margin-left: 3px;
     font-family: myFirstFont;
-    color:#9AABD8;
-    background-color: #1B244A;
+    color:#E0F2FE;
+    background-color: #38BDF8;
     width: 45px;
     height: 45px;
-    border: 1px solid #9AABD8;
-    border-radius: 5px;
+    border: 1px solid #F0F9FF;
+    border-radius: 10px;
     margin-top: 21px;
     
 }
 .reset-Btn{
     font-family: myFirstFont;
-    color:#9AABD8;
-    background-color: #1B244A;
+    color:#E0F2FE;
+    background-color: #38BDF8;
     width: 155px;
     height: 45px;
-    border: 1px solid #9AABD8;
-    border-radius: 5px;
+    border: 1px solid #F0F9FF;
+    border-radius: 10px;
     margin-top: 21px;
 }
