@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mycounter</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h3 id="Heading">HOME</h3>
+            <div id="Box">
+                <div id ="Score">
+                    <div id = "home-Count">0</div>
+                </div>
+            </div>
+            <div id="home-Btns">
+             <button class="style-Btn" onclick="homeadd1()">+1</button>
+             <button class="style-Btn" onclick="homeadd2()">+2</button>
+             <button class="style-Btn" onclick="homeadd3()">+3</button><br>
+             <button class="reset-Btn" onclick="resethome()">reset</button>
+            </div>   
+        </div>
+
+        
+        
+       <div>
+            <h3 id="Heading">GUEST</h3>
+            <div id="Box">
+                <div id ="Score">
+                    <div id = "guest-Count">0</div>
+                </div>
+            </div>
+            <div id="guest-Btns">
+                <button class="style-Btn" onclick="guestadd1()">+1</button>
+                <button class="style-Btn" onclick="guestadd2()">+2</button>
+                <button class="style-Btn" onclick="guestadd3()">+3</button><br>
+                <button class="reset-Btn" onclick="resetguest()">reset</button>
+
+               </div>
+               
+        </div>
+    </div>
+ <script src="/app.js"></script>   
+</body>
+</html>
